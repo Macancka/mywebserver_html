@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Introdueix el teu usuari i contrasenya"
+AuthBasicProvider file
+AuthUserFile "/var/www/contrasenyes"
+Require valid-user
